@@ -111,7 +111,7 @@ def rum_stup():
                 rum_3()
                 break
             else:
-                print("Du misslyckas och faller ner i stupet Spelet är över.")
+                print("Du misslyckas, faller ner i stupet och förlorar amuletten. Spelet är över.")
                 break
         elif val == "2":
             print("Du går framåt, faller ner i stupet och förlorar amuletten. Spelet är över.")
