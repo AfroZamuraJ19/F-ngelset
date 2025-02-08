@@ -24,7 +24,7 @@ def rum_1():
             print("Dörren är låst, men du ser inget annat att göra.")
             tid_kvar = tid_kvar + 1
             if (tid_kvar >= 3):
-                print("Du har stannat för länge i cellen och dör av hunger. Spelet är över")
+                print("Du har stannat för länge i cellen och dör av hunger. Spelet är över.")
                 exit()
         else:
             print("Ogiltigt val. Försök igen.")
