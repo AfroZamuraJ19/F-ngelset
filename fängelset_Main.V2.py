@@ -29,6 +29,7 @@ def rum_1():
         else:
             print("Ogiltigt val. Försök igen.")
 
+
 # Rum 2: Grottan och trollet
 def rum_2():
     print("Du är i rum 2")
@@ -76,6 +77,7 @@ def strid_med_troll():
             print("Trollet besegrade dig...")
             return 
     
+
 # Rum 3: Vägval - Friheten eller stupet
 def rum_3():
     print("Du är i rum 3.")
@@ -122,6 +124,7 @@ def rum_stup():
 
 
 
+
 while (spelet_körs == True):
     rum_1()
     rum_2()
@@ -129,9 +132,5 @@ while (spelet_körs == True):
     exit()
 
 
-# 1. Programmera rum 1 som är cellen. Pussel hitta en nyckel i en kista.
-# 2. Programmera rum 2 som är grotta. Spelaren möter ett troll. Två vägar ut ur grottan. Ett till friheten en dålig väg.
-# 3. Programmera rum 3 som är vägval rummet om vad som händer om spelaren väljer friheten eller stupet, en avslutningstext.
-# 4. Programmera rum 5 som är den dåliga vägen om spelaren väljer stupet i rum 3. Spelaren håller på att trilla ner i ett stup (någon slags spelmekanik för detta). Kan göra val att gå tillbaka om den överlever.
-# 5. Programmera ett stridssytem för striden med trollet och att man vinner en magisk amulett efter att då ha besegrat trollet.
+
 
